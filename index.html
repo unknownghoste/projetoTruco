@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+    <title>Pontuador de Truco</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="imagens/icon.jpg" />
+</head>
+<body>
+    <div class="app">
+        <h1>Pontuador de Truco</h1>
+        <div class="team">
+            <h2>Equipe 1:</h2>
+            <input type="text" id="team1Name" placeholder="Nome da Equipe 1">
+            <p class="score" id="team1Score">0</p>
+            <div class="buttons">
+                <button id="addPoint1">+1</button>
+                <button id="addPoint3">+3</button>
+                <button id="addPoint6">+6</button>
+                <button id="addPoint12">+12</button>
+            </div>
+        </div>
+        <div class="team">
+            <h2>Equipe 2:</h2>
+            <input type="text" id="team2Name" placeholder="Nome da Equipe 2">
+            <p class="score" id="team2Score">0</p>
+            <div class="buttons">
+                <button id="addPoint1Team2">+1</button>
+                <button id="addPoint3Team2">+3</button>
+                <button id="addPoint6Team2">+6</button>
+                <button id="addPoint12Team2">+12</button>
+            </div>
+        </div>
+        <div class="reset-button">
+            <button id="reset">Reiniciar</button>
+        </div>
+        <div class="winner">
+            <p id="winnerText"></p>
+        </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
